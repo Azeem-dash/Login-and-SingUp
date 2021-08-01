@@ -28,6 +28,7 @@ export default function SingUp() {
       >
         <div className="input-field">
           <input
+            value={Email}
             placeholder="Enter your Email"
             onChange={(e) => {
               setEmail(e.target.value);
@@ -36,6 +37,7 @@ export default function SingUp() {
             className="validate"
           />
           <input
+            value={Password}
             placeholder="Enter your password"
             onChange={(e) => {
               setPassword(e.target.value);
@@ -44,7 +46,7 @@ export default function SingUp() {
             className="validate"
           />
           <button type="submit" className="btn bule">
-            Login
+            SingUp
           </button>
         </div>
       </form>
